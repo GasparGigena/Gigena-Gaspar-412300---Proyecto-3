@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\proyecto2webapi\\proyecto2webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|solutionrelative:proyecto2webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\proyecto2webapi\\proyecto2webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|solutionrelative:proyecto2webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\proyecto2webapi\\proyecto2webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|solutionrelative:proyecto2webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\entities\\facturadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\services\\ifacturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\proyecto2webapi\\proyecto2webapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E8B5B4C-E852-459F-A834-36286EEF06AB}|proyecto2WebAPI\\proyecto2WebAPI.csproj|solutionrelative:proyecto2webapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\entities\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\entities\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\repositories\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9880C-18EF-4B3F-85F8-CECFBB5E1A17}|..\\BibliotecaBack\\BibliotecaBack\\BibliotecaBack.csproj|c:\\users\\gaspar\\onedrive\\escritorio\\gigena gaspar 412300 - proyecto 2\\bibliotecaback\\bibliotecaback\\repositories\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "proyecto2WebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "proyecto2WebAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T23:40:30.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "proyecto2WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\appsettings.json",
+              "RelativeToolTip": "proyecto2WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T23:39:32.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "proyecto2WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\Program.cs",
+              "RelativeToolTip": "proyecto2WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:27:59.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Services\\IFacturaService.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Services\\IFacturaService.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Services\\IFacturaService.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Services\\IFacturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:48:47.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Services\\FacturaService.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Services\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Services\\FacturaService.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Services\\FacturaService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:48:39.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacturaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Entities\\FacturaDbContext.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Entities\\FacturaDbContext.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Entities\\FacturaDbContext.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Entities\\FacturaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:31:50.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Repositories\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Repositories\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Repositories\\FacturaRepository.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Repositories\\FacturaRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:24:53.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Repositories\\IFacturaRepository.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Repositories\\IFacturaRepository.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Repositories\\IFacturaRepository.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Repositories\\IFacturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:24:42.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Entities\\DetalleFactura.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Entities\\DetalleFactura.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Entities\\DetalleFactura.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Entities\\DetalleFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:16:02.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Entities\\Factura.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaBack\\BibliotecaBack\\Entities\\Factura.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\BibliotecaBack\\BibliotecaBack\\Entities\\Factura.cs",
+              "RelativeToolTip": "..\\BibliotecaBack\\BibliotecaBack\\Entities\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:15:41.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "proyecto2WebAPI\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\Gaspar\\OneDrive\\Escritorio\\Gigena Gaspar 412300 - Proyecto 2\\proyecto2WebAPI\\proyecto2WebAPI\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "proyecto2WebAPI\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:14:03.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

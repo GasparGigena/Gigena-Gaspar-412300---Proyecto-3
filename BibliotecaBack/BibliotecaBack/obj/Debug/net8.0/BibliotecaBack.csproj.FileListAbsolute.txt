@@ -1,0 +1,26 @@
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.deps.json
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.dll
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.pdb
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.csproj.AssemblyReference.cache
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.AssemblyInfoInputs.cache
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.AssemblyInfo.cs
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.csproj.CoreCompileInputs.cache
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.dll
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\refint\BibliotecaBack.dll
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.pdb
+C:\Users\Gaspar\source\repos\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\ref\BibliotecaBack.dll
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.deps.json
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.runtimeconfig.json
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.dll
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\bin\Debug\net8.0\BibliotecaBack.pdb
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.csproj.AssemblyReference.cache
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.AssemblyInfoInputs.cache
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.AssemblyInfo.cs
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.csproj.CoreCompileInputs.cache
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.dll
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\refint\BibliotecaBack.dll
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.pdb
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\BibliotecaBack.genruntimeconfig.cache
+C:\Users\Gaspar\OneDrive\Escritorio\Gigena Gaspar 412300 - Proyecto 2\BibliotecaBack\BibliotecaBack\obj\Debug\net8.0\ref\BibliotecaBack.dll

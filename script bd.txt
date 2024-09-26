@@ -1,0 +1,216 @@
+USE [TpProg]
+GO
+/****** Object:  Table [dbo].[articulos]    Script Date: 25/9/2024 21:02:43 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[articulos](
+	[cod_articulo] [int] NOT NULL,
+	[articulo] [varchar](50) NULL,
+	[pre_unitario] [float] NULL,
+ CONSTRAINT [pk_cod_articulos] PRIMARY KEY CLUSTERED 
+(
+	[cod_articulo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[detalles_facturas]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[detalles_facturas](
+	[cod_detalle_factura] [int] NOT NULL,
+	[cod_factura] [int] NULL,
+	[cod_articulo] [int] NULL,
+	[cantidad] [int] NULL,
+ CONSTRAINT [pk_detalle_factura] PRIMARY KEY CLUSTERED 
+(
+	[cod_detalle_factura] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[facturas]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[facturas](
+	[cod_factura] [int] IDENTITY(1,1) NOT NULL,
+	[fecha] [datetime] NULL,
+	[cod_forma_pago] [int] NULL,
+	[cliente] [varchar](50) NULL,
+ CONSTRAINT [pk_cod_factura] PRIMARY KEY CLUSTERED 
+(
+	[cod_factura] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[formas_pagos]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[formas_pagos](
+	[cod_forma_pago] [int] IDENTITY(1,1) NOT NULL,
+	[forma_pago] [varchar](20) NULL,
+ CONSTRAINT [pk_cod_forma_pago] PRIMARY KEY CLUSTERED 
+(
+	[cod_forma_pago] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[detalles_facturas]  WITH CHECK ADD  CONSTRAINT [fk_cod_articulo] FOREIGN KEY([cod_articulo])
+REFERENCES [dbo].[articulos] ([cod_articulo])
+GO
+ALTER TABLE [dbo].[detalles_facturas] CHECK CONSTRAINT [fk_cod_articulo]
+GO
+ALTER TABLE [dbo].[detalles_facturas]  WITH CHECK ADD  CONSTRAINT [fk_cod_factura] FOREIGN KEY([cod_factura])
+REFERENCES [dbo].[facturas] ([cod_factura])
+GO
+ALTER TABLE [dbo].[detalles_facturas] CHECK CONSTRAINT [fk_cod_factura]
+GO
+ALTER TABLE [dbo].[facturas]  WITH CHECK ADD  CONSTRAINT [fk_cod_forma_pago] FOREIGN KEY([cod_forma_pago])
+REFERENCES [dbo].[formas_pagos] ([cod_forma_pago])
+GO
+ALTER TABLE [dbo].[facturas] CHECK CONSTRAINT [fk_cod_forma_pago]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ELIMINAR_ARTICULO]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_ELIMINAR_ARTICULO]
+@cod_articulo int
+as
+delete from articulos where cod_articulo = @cod_articulo
+GO
+/****** Object:  StoredProcedure [dbo].[SP_INSERTAR_ARTICULO]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_INSERTAR_ARTICULO]
+@cod_articulo int,
+@articulo varchar(50),
+@pre_unitario float
+as
+Insert Into articulos (cod_articulo, articulo, pre_unitario) Values (@cod_articulo, @articulo, @pre_unitario)
+GO
+/****** Object:  StoredProcedure [dbo].[SP_INSERTAR_DETALLE]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_INSERTAR_DETALLE]
+	@cod_detalle_factura int,
+	@cod_factura int,
+	@cod_articulo int,
+	@cantidad int
+
+AS
+	INSERT INTO detalles_facturas(cod_detalle_factura ,cod_factura, cod_articulo, cantidad) 
+	VALUES (@cod_detalle_factura, @cod_factura, @cod_articulo, @cantidad)
+GO
+/****** Object:  StoredProcedure [dbo].[SP_INSERTAR_MAESTRO]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[SP_INSERTAR_MAESTRO]
+@fecha datetime,
+@cod_forma_pago int,
+@cliente varchar(50),
+@cod_factura int output
+as
+GO
+/****** Object:  StoredProcedure [dbo].[SP_RECUPERAR_ARTICULO_POR_ID]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_RECUPERAR_ARTICULO_POR_ID]
+@cod_articulo int
+as
+select *
+from articulos
+Where cod_articulo = @cod_articulo
+GO
+/****** Object:  StoredProcedure [dbo].[SP_RECUPERAR_ARTICULOS]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_RECUPERAR_ARTICULOS]
+as
+select *
+from articulos
+GO
+/****** Object:  StoredProcedure [dbo].[SP_RECUPERAR_FACTURAS]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[SP_RECUPERAR_FACTURAS]
+as
+SELECT f.*, df.cantidad, a.*
+	  FROM facturas f
+	  JOIN detalles_facturas df ON df.cod_factura = f.cod_factura
+	  JOIN articulos a ON a.cod_articulo = df.cod_articulo
+	  ORDER BY f.cod_factura;
+GO
+/****** Object:  StoredProcedure [dbo].[SP_RECUPERAR_PRESUPUESTO_POR_ID]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[SP_RECUPERAR_PRESUPUESTO_POR_ID]
+@cod_factura int
+as
+SELECT f.*, df.cantidad, a.*
+FROM facturas f
+JOIN detalles_facturas df ON df.cod_factura = f.cod_factura
+JOIN articulos a ON a.cod_articulo = df.cod_articulo
+Where f.cod_factura = @cod_factura;
+GO
+/****** Object:  StoredProcedure [dbo].[SP_REGISTRAR_BAJA_ARTICULO]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_REGISTRAR_BAJA_ARTICULO]
+@cod_articulo int
+as
+delete from articulos where cod_articulo = @cod_articulo
+GO
+/****** Object:  StoredProcedure [dbo].[SP_UPDATE_ARTICULO]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_UPDATE_ARTICULO]
+@cod_articulo int 
+as
+update articulos 
+set @cod_articulo = cod_articulo
+GO
+/****** Object:  StoredProcedure [dbo].[SP_UPDATE_ARTICULO2]    Script Date: 25/9/2024 21:02:44 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_UPDATE_ARTICULO2]
+    @cod_articulo INT,
+    @descripcion NVARCHAR(255),
+    @pre_Unitario DECIMAL(10, 2)
+AS
+BEGIN
+        UPDATE articulos
+        SET 
+            articulo = @Descripcion,
+            pre_unitario = @pre_Unitario
+        WHERE 
+            cod_articulo = @cod_articulo;
+END
+GO
